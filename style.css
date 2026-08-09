@@ -7,9 +7,561 @@
 
 
 body{
-    background:#eee;
+
+    font-family:
+    Arial, Helvetica, sans-serif;
+
+    color:#111;
+
+    background:white;
+
 }
 
+
+
+img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+
+
+button{
+
+    cursor:pointer;
+
+    border:none;
+
+    font-weight:bold;
+
+}
+
+
+
+.container{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+
+
+
+
+/* ==========================
+   LANGUAGE BAR
+========================== */
+
+
+.language-bar{
+
+    height:80px;
+
+    background:#777;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:25px;
+
+    color:white;
+
+}
+
+
+
+.language-bar button{
+
+    background:none;
+
+    color:white;
+
+    text-decoration:underline;
+
+    font-size:14px;
+
+}
+
+
+
+.language-bar span{
+
+    background:white;
+
+    color:#333;
+
+    padding:12px 20px;
+
+    margin-left:20px;
+
+}
+
+
+
+
+
+/* ==========================
+   HEADER
+========================== */
+
+
+header{
+
+    height:65px;
+
+    display:flex;
+
+    align-items:center;
+
+    border-bottom:1px solid #ddd;
+
+}
+
+
+
+.logo{
+
+    background:#fff000;
+
+    height:65px;
+
+    padding:20px;
+
+    font-weight:900;
+
+    font-size:20px;
+
+}
+
+
+
+.language{
+
+    padding-left:25px;
+
+    font-weight:bold;
+
+}
+
+
+
+.donate{
+
+    margin-left:auto;
+
+    height:65px;
+
+    padding:0 30px;
+
+    background:#fff000;
+
+}
+
+
+
+.menu{
+
+    font-size:30px;
+
+    padding:20px;
+
+}
+
+
+
+
+
+/* ==========================
+ HERO SECTION
+========================== */
+
+
+.hero{
+
+    height:580px;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+
+
+.hero img{
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+
+
+.hero-text{
+
+    position:absolute;
+
+    left:30px;
+
+    bottom:100px;
+
+    background:rgba(0,0,0,.75);
+
+    color:white;
+
+    padding:25px;
+
+    width:70%;
+
+}
+
+
+
+.hero-text h1{
+
+    font-size:45px;
+
+    line-height:1.1;
+
+    text-transform:uppercase;
+
+}
+
+
+
+.hero-text p{
+
+    margin:20px 0;
+
+    font-size:18px;
+
+}
+
+
+
+.hero-text button{
+
+    background:#fff000;
+
+    padding:18px 30px;
+
+}
+
+
+
+
+
+
+
+/* ==========================
+ ACTION CARDS
+========================== */
+
+
+section.container{
+
+    padding:50px 0;
+
+}
+
+
+
+section h2{
+
+    text-align:center;
+
+    margin-bottom:35px;
+
+    font-size:32px;
+
+}
+
+
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(4,1fr);
+
+    gap:20px;
+
+}
+
+
+
+.card{
+
+    border:1px solid #ddd;
+
+    background:white;
+
+}
+
+
+
+.card img{
+
+    height:250px;
+
+    object-fit:cover;
+
+}
+
+
+
+.card h4{
+
+    background:#111;
+
+    color:white;
+
+    display:inline-block;
+
+    padding:5px;
+
+    margin:10px;
+
+    font-size:12px;
+
+}
+
+
+
+.card h3{
+
+    padding:10px;
+
+    min-height:80px;
+
+}
+
+
+
+.card button{
+
+    margin:10px;
+
+    background:#fff000;
+
+    padding:15px 25px;
+
+}
+
+
+
+
+
+
+
+/* ==========================
+ MESSAGE BOX
+========================== */
+
+
+.message{
+
+    width:90%;
+
+    margin:30px auto;
+
+    background:#eee;
+
+    padding:40px;
+
+    text-align:center;
+
+}
+
+
+
+.message h2{
+
+    font-size:35px;
+
+}
+
+
+
+
+
+/* ==========================
+ LATEST NEWS GRID
+========================== */
+
+
+.news-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+
+
+.news-grid article{
+
+    position:relative;
+
+}
+
+
+
+.news-grid img{
+
+    height:250px;
+
+    object-fit:cover;
+
+}
+
+
+
+.news-grid h3{
+
+    position:absolute;
+
+    bottom:0;
+
+    background:white;
+
+    padding:10px;
+
+    width:90%;
+
+}
+
+
+
+
+
+
+
+/* ==========================
+ THREE INFORMATION BLOCKS
+========================== */
+
+
+.three{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+    text-align:center;
+
+    gap:40px;
+
+    width:90%;
+
+    margin:60px auto;
+
+}
+
+
+
+.three i{
+
+    font-size:60px;
+
+}
+
+
+
+.three p{
+
+    color:#555;
+
+    margin:20px;
+
+}
+
+
+
+.three button{
+
+    background:white;
+
+    border:1px solid black;
+
+    padding:15px 25px;
+
+}
+
+
+
+
+
+
+
+/* ==========================
+ TRENDING
+========================== */
+
+
+.trending{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+
+
+.trending div{
+
+    position:relative;
+
+}
+
+
+
+.trending img{
+
+    height:300px;
+
+    object-fit:cover;
+
+}
+
+
+
+.trending p{
+
+    position:absolute;
+
+    bottom:10px;
+
+    left:10px;
+
+    background:white;
+
+    padding:8px;
+
+    font-weight:bold;
+
+}
 
 .footer{
 
