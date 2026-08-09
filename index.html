@@ -1,21 +1,139 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<title>My Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Modern News Footer</title>
+
 <link rel="stylesheet" href="style.css">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
 
-<h1>Welcome to my website</h1>
+  <h1>Welcome to my website</h1>
 
 <p>I built this website using only my phone.</p>
 
 <button onclick="hello()">Click Me</button>
 
+
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Brand -->
+        <h1 class="brand">
+            <span>THE</span> AFRICAN NEWS
+        </h1>
+
+
+        <!-- Support Buttons -->
+        <div class="support">
+
+            <button>
+                <i class="fa-solid fa-k"></i>
+                Become a Member
+            </button>
+
+            <button>
+                <i class="fa-solid fa-hand-holding-heart"></i>
+                Support us on GoFundMe
+            </button>
+
+            <button>
+                <i class="fa-brands fa-patreon"></i>
+                Support us on Patreon
+            </button>
+
+        </div>
+
+
+
+        <!-- Social Media -->
+        <h3>FOLLOW US</h3>
+
+        <div class="social">
+
+            <a><i class="fab fa-facebook"></i></a>
+            <a><i class="fab fa-instagram"></i></a>
+            <a><i class="fab fa-telegram"></i></a>
+            <a><i class="fab fa-twitter"></i></a>
+
+            <a><i class="fab fa-linkedin"></i></a>
+            <a><i class="fab fa-youtube"></i></a>
+            <a><i class="fab fa-tiktok"></i></a>
+            <a><i class="fab fa-bluesky"></i></a>
+
+        </div>
+
+
+
+        <!-- Membership -->
+        <div class="member">
+
+            <h3>
+                WE ARE A MEMBER CENTER OF
+            </h3>
+
+            <div class="organization">
+                <i class="fa-solid fa-globe"></i>
+                AFRICAN MEDIA NETWORK
+            </div>
+
+
+            <button class="register">
+                <i class="fa-solid fa-user"></i>
+                Register
+            </button>
+
+        </div>
+
+
+
+        <!-- Newsletter -->
+
+        <div class="newsletter">
+
+            <h2>
+                Subscribe to African Daily:
+            </h2>
+
+            <p>
+                News from Africa in your inbox
+            </p>
+
+
+            <div class="subscribe">
+
+                <input 
+                type="email"
+                id="email"
+                placeholder="Enter your email">
+
+                <button onclick="subscribe()">
+                    SUBSCRIBE
+                </button>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</footer>
+
+
+
 <script src="script.js"></script>
 
 </body>
-
 </html>
